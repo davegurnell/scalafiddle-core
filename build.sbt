@@ -4,7 +4,7 @@ import Settings._
 
 val commonSettings = Seq(
   scalacOptions := scalacArgs,
-  scalaVersion := "2.11.11",
+  scalaVersion := "2.12.3",
   version := versions.fiddle,
   libraryDependencies ++= Seq(
     "org.scalatest" %%% "scalatest" % versions.scalatest % "test"
